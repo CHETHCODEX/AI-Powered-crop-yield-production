@@ -57,7 +57,7 @@ HACKATHON-GITAM-2025/
 ├── test_api.py          # Local API testing
 ├── requirements.txt     # Dependencies
 ├── README.md            # 📘 Documentation
-
+```
 
 
 ## ⚙️ Installation & Setup
