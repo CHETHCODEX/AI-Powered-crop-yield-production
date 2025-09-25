@@ -84,27 +84,32 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 **4️⃣ Train Models (optional)**
+```
 python scripts/train_yield_model.py
 python scripts/build_guidelines.py
-
+```
 **5️⃣ Run Backend API**
+```
 python api/api.py
+```
 
 The API will start at:
 👉 http://127.0.0.1:5000
 
 ## 📡 API Usage
 **Health Check**
+```
 curl http://127.0.0.1:5000/
-
+```
 **🌱Predict Yields**
+```
 curl -X POST http://127.0.0.1:5000/predict/json \
   -H "Content-Type: application/json" \
   -d '{"state":"Andhra Pradesh","district":"Kurnool","land_acres":10}'
-
+```
 
 **🔹 Example Response:**
-
+```
 [
   {
     "Crop": "Paddy",
@@ -116,26 +121,27 @@ curl -X POST http://127.0.0.1:5000/predict/json \
     "Best Crop Suggestion (Next Season)": "Maize (better yield in Rabi)"
   }
 ]
-
+```
 ##💻 Frontend
 
 **We provide both React and HTML frontend options.**
-
+```
 React Setup
 cd frontend
 npm install
 npm start
-
+```
 **Plain HTML**
-
+```
 Open frontend/index.html in browser.
 It calls http://127.0.0.1:5000/predict/json.
-
+```
 ## 📊 Tech Stack
+```
 Python (Flask, Pandas, scikit-learn, Joblib) → Backend + ML
 React.js / HTML + JS → Frontend
 CSV datasets → Agriculture data (crop production, fertilizer, yield)
-
+```
 ## 📌 Future Scope
 🌍 Real-time weather & soil sensor integration
 📡 Deploy API to cloud (AWS / Azure / GCP)
@@ -153,4 +159,3 @@ Member 4 → Frontend Development
 
 Project developed for Hackathon GITAM 2025.
 Empowering farmers with data-driven crop decisions 🌱.
-
