@@ -60,15 +60,24 @@ HACKATHON-GITAM-2025/
 ```
 
 
+
 ## ⚙️ Installation & Setup
-**1️⃣ Clone Repo**
+
+### 1️⃣ Clone Repo
+```bash
 git clone https://github.com/your-username/crop-yield-prediction.git
 cd crop-yield-prediction
+```
 
 **2️⃣ Create Virtual Environment**
+# Linux / Mac
 python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+source venv/bin/activate
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
 
 **3️⃣ Install Dependencies**
 pip install -r requirements.txt
@@ -87,7 +96,7 @@ The API will start at:
 **Health Check**
 curl http://127.0.0.1:5000/
 
-**Predict Yields**
+**🌱Predict Yields**
 curl -X POST http://127.0.0.1:5000/predict/json \
   -H "Content-Type: application/json" \
   -d '{"state":"Andhra Pradesh","district":"Kurnool","land_acres":10}'
@@ -98,7 +107,7 @@ curl -X POST http://127.0.0.1:5000/predict/json \
 [
   {
     "Crop": "Paddy",
-    "Predicted Yield (kg/ha or q/acre)": "3200 kg/ha (32 q/acre)",
+    "Predicted Yield (kg/ha or q/acre)": "3200 kg/ha (32 q/acre)",  
     "Irrigation Guidance": "Maintain 2–5 cm standing water during growth",
     "Fertilizer Recommendation": "N: 35 kg, P: 0 kg, K: 0 kg per hectare",
     "Pest/Disease Alerts": "Stem borer risk (high humidity)",
