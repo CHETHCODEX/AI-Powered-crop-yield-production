@@ -80,8 +80,9 @@ venv\Scripts\activate
 
 
 **3️⃣ Install Dependencies**
+```
 pip install -r requirements.txt
-
+```
 **4️⃣ Train Models (optional)**
 python scripts/train_yield_model.py
 python scripts/build_guidelines.py
