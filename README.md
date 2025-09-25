@@ -1,21 +1,33 @@
-# 🌾 Smart Crop Yield Prediction System
+# 🌾 Smart Crop Yield Prediction System  
 
-🚀 A machine learning powered system that predicts **crop yields** and provides **guidance for irrigation, fertilizers, pest/disease alerts, and next-season crop suggestions**.  
-Built for **Hackathon GITAM 2025**.
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)  
+[![Flask](https://img.shields.io/badge/Backend-Flask-blue)](https://flask.palletsprojects.com/)  
+[![Frontend](https://img.shields.io/badge/Frontend-React%2FHTML-green)](https://reactjs.org/)  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+
+🚀 A **machine learning-powered platform** that predicts **crop yields** and provides:  
+✅ **Irrigation Guidance**  
+✅ **Fertilizer Recommendations**  
+✅ **Pest/Disease Alerts**  
+✅ **Next-Season Crop Suggestions**  
+
+Built with ❤️ for **Hackathon GITAM 2025**.  
 
 ---
 
-## 📌 Features
-- ✅ Predicts **crop yield (kg/ha and q/acre)** based on **state, district, and land size**  
-- ✅ District-specific **crop filtering** using government production data  
-- ✅ Provides **agriculture guidelines** (Irrigation, Fertilizer, Pest/Disease alerts, Next season suggestion)  
-- ✅ REST API built with **Flask**  
-- ✅ Frontend (React/HTML) to show interactive **tables** of predictions  
-- ✅ Data pipeline: CSV → Processed Dataset → Model Training → API → UI  
+## ✨ Features
+- 📊 Predicts **crop yield (kg/ha and q/acre)** using **state, district, and land size**  
+- 🌍 District-specific **crop filtering** using production datasets  
+- 🌱 Provides **actionable agriculture guidelines**  
+- ⚡ **REST API** built with **Flask**  
+- 🖥️ **Interactive Frontend** (React or HTML)  
+- 🔗 Pipeline: **CSV → Data Cleaning → ML Model → API → UI**  
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure  
+
+```plaintext
 HACKATHON-GITAM-2025/
 │
 ├── api/                 # Backend Flask API
@@ -26,7 +38,7 @@ HACKATHON-GITAM-2025/
 │   ├── Crop_recommendation.csv
 │   ├── fertilizer_recommendation.csv
 │
-├── processed_data/      # Cleaned data
+├── processed_data/      # Cleaned datasets
 │   ├── processed_production_clean.csv
 │
 ├── mapping/             # Guidelines & mappings
@@ -35,7 +47,7 @@ HACKATHON-GITAM-2025/
 ├── model/               # Trained ML models
 │   ├── yield_model.pkl
 │
-├── scripts/             # Utility scripts
+├── scripts/             # Training + Data scripts
 │   ├── train_crop_model.py
 │   ├── train_yield_model.py
 │   ├── build_guidelines.py
@@ -43,7 +55,9 @@ HACKATHON-GITAM-2025/
 ├── frontend/            # React/HTML frontend
 │
 ├── test_api.py          # Local API testing
-├── README.md            # 📘 Project Documentation
+├── requirements.txt     # Dependencies
+├── README.md            # 📘 Documentation
+
 
 
 ## ⚙️ Installation & Setup
