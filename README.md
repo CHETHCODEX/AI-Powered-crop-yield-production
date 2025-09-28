@@ -148,6 +148,25 @@ CSV datasets → Agriculture data (crop production, fertilizer, yield)
 📱 Mobile app integration for farmers
 🧠 Improve ML model with LSTM or XGBoost
 
+##HOMEPAGE
+![HomePage](https://github.com/user-attachments/assets/c3758b3d-396b-4bb6-aede-354bbc87bbd3)
+
+##RegionalLanguage
+![HomePage1](https://github.com/user-attachments/assets/e473f090-3227-4a62-a66f-dc7b70a7285e)
+
+##FarmerDetails Page
+![Homepage2](https://github.com/user-attachments/assets/14fe3235-14c5-434e-9697-a4c6bd053ef5)
+
+##Soil & Weather Page
+![HomePage3](https://github.com/user-attachments/assets/6529322f-5973-4329-a45c-6ed7d982de56)
+
+##Crop Details
+![Homepage4](https://github.com/user-attachments/assets/6bbd3fbc-2298-4af1-bddc-ab366ffebc9d)
+
+##Prediction Page
+![OUTPUT](https://github.com/user-attachments/assets/ab633ade-1588-43cd-871d-eb3ced7ac304)
+
+
 ## 👨‍💻 Contributors
 
 Member 1 → Data Cleaning & Preprocessing
